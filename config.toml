@@ -1,0 +1,26 @@
+baseURL = "https://laurence21406.github.io/"
+languageCode = "en-us"
+title = "Laurence21406"
+theme = "yinwang"
+#pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = false
+#pygmentsStyle = "dracula"
+#pygmentsOptions = ['linenos']
+# 代码高亮/chroma，hugo默认自带
+
+[params]
+    author = "Laurence Chow"
+    github = "laurence21406"
+    # gitlab = "yobrave"
+    #googleAnalytics = "****"
+    # 谷歌统计gtag
+    highlight = "dracula" # 默认样式 `github`
+    langs = ["go"]
+    # 默认加载 highlight.min.js，但 一些不支持的语言, 你自己添加,
+    # 其实也可以使用hugo自带的语法高亮器设置，不过我有点懒
+    # single = false
+    # 单页面的Home 按钮去除
+    # menus = true
+    # 我 想加更多目录
+    # backgroundColor = "#fbf6ec"
+    # 加点黄黄的背景色
