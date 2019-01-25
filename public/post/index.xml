@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Laurence21406</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Jan 2019 00:03:48 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Jan 2019 09:57:53 +0800</lastBuildDate>
     
 	<atom:link href="https://laurence21406.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>常用链接</title>
+      <link>https://laurence21406.github.io/post/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Fri, 25 Jan 2019 09:57:53 +0800</pubDate>
+      
+      <guid>https://laurence21406.github.io/post/%E5%B8%B8%E7%94%A8%E9%93%BE%E6%8E%A5/</guid>
+      <description> Linux  Arch Linux 鳥哥的 Linux 私房菜  Git  Git-Book 常用Git命令清单 Git工作流程 廖雪峰Git简介  Hugo  Hugo  Spacemacs  ArhWiki Spacemacs Toturial Spacemacs Layers List Spacemacs Official Spacemacs Rocks  Org  Org Official 熟练使用org-mode管理日常事务   </description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://laurence21406.github.io/post/git-github/</link>
+      <pubDate>Wed, 23 Jan 2019 03:43:25 +0800</pubDate>
+      
+      <guid>https://laurence21406.github.io/post/git-github/</guid>
+      <description>Git-Book</description>
+    </item>
     
     <item>
       <title>Hugo Blog</title>
