@@ -7,7 +7,7 @@ theme = "yinwang"
 #pygmentsStyle = "dracula"
 #pygmentsOptions = ['linenos']
 # 代码高亮/chroma，hugo默认自带
-
+enableEmoji = true
 [params]
     author = "Laurence Chow"
     github = "laurence21406"

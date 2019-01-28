@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-language" content="en-us" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    
+    
+    <title>Spacemacs Cheatsheet</title>
+    
+
+
+    
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+        <link rel="stylesheet" href="/css/main.css">
+    
+
+    
+    
+</head>
+
+
+<body>
+    <script>
+        window.addEventListener("resize", resizeThrottler, false);
+
+        var resizeTimeout;
+        function resizeThrottler() {
+        
+        if ( !resizeTimeout ) {
+            resizeTimeout = setTimeout(function() {
+            resizeTimeout = null;
+            actualResizeHandler();
+        
+            
+            }, 66);
+        }
+        }
+        actualResizeHandler()
+        function actualResizeHandler() {
+                if (/mobile/i.test(navigator.userAgent) || /android/i.test(navigator.userAgent))
+                {
+                    document.body.classList.add('mobile');
+                }else{
+                    document.body.classList.remove('mobile');  
+                }
+        }</script>
+    
+
+
+    
+
+
+<div class="inner" style="position:relative;">
+  
+  <div class="side-btn"><a href="/" class="back">Home</a></div>
+  
+<div class="blog-post">
+  <h2>Spacemacs Cheatsheet</h2>
+        
+
+<p>There is a spacemacs cheatsheet of myself, 👍 means <strong>frequently used</strong> .</p>
+
+<h2 id="editor">Editor</h2>
+
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>SPC q q</strong></td>
+<td>Kill emacs</td>
+</tr>
+
+<tr>
+<td><strong>SPC z x</strong></td>
+<td>Increase/decrease front size</td>
+</tr>
+
+<tr>
+<td><strong>i/I or a/A</strong></td>
+<td>Insert before or after</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="files">Files</h2>
+
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>SPC f f</strong></td>
+<td>Open/create a file 👍</td>
+</tr>
+
+<tr>
+<td><strong>SPC f s</strong></td>
+<td>Save a file 👍</td>
+</tr>
+
+<tr>
+<td><strong>SPC f p</strong></td>
+<td>Find a file in your project</td>
+</tr>
+
+<tr>
+<td><strong>SPC f e d</strong></td>
+<td>Edit .spacemacs config file</td>
+</tr>
+
+<tr>
+<td><strong>SPC f r</strong></td>
+<td>Recent files 👍</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="navigation">Navigation</h2>
+
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>w</strong></td>
+<td>Go right a world</td>
+</tr>
+
+<tr>
+<td><strong>e</strong></td>
+<td>Go to the end of a world</td>
+</tr>
+
+<tr>
+<td><strong>b</strong></td>
+<td>Go left a world</td>
+</tr>
+
+<tr>
+<td><strong>gg</strong></td>
+<td>Go to beginning of file</td>
+</tr>
+
+<tr>
+<td><strong>G</strong></td>
+<td>Go to end of file</td>
+</tr>
+
+<tr>
+<td><strong>$</strong></td>
+<td>Go to end of line</td>
+</tr>
+
+<tr>
+<td><strong>^</strong></td>
+<td>Go to beginning of non-whitespace part of line</td>
+</tr>
+
+<tr>
+<td><strong>zz</strong></td>
+<td>Center the buffer around your course</td>
+</tr>
+
+<tr>
+<td><strong>g ;</strong></td>
+<td>Go to the last place you edited</td>
+</tr>
+
+<tr>
+<td><strong>g f</strong></td>
+<td>Go to the file path under you path</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="window-layouts">Window Layouts</h2>
+
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>SPC w V</strong></td>
+<td>Split window right and focus 👍</td>
+</tr>
+
+<tr>
+<td><strong>SPC w d</strong></td>
+<td>Delete window 👍</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="editing">Editing</h2>
+
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>u</strong></td>
+<td>Undo 👍</td>
+</tr>
+
+<tr>
+<td><strong>ctrl r</strong></td>
+<td>Redo</td>
+</tr>
+
+<tr>
+<td><strong>y</strong></td>
+<td>Yank</td>
+</tr>
+
+<tr>
+<td><strong>p</strong></td>
+<td>Paste</td>
+</tr>
+
+<tr>
+<td><strong>V</strong></td>
+<td>Select lines at visual mode</td>
+</tr>
+
+<tr>
+<td><strong>yw/yy</strong></td>
+<td>Copy a word/line</td>
+</tr>
+
+<tr>
+<td><strong>y$</strong></td>
+<td>Copy from cursor to end of line</td>
+</tr>
+
+<tr>
+<td><strong>d</strong></td>
+<td>Delete highlighted text</td>
+</tr>
+
+<tr>
+<td><strong>x</strong></td>
+<td>Delete character</td>
+</tr>
+
+<tr>
+<td><strong>dw</strong></td>
+<td>Delete word</td>
+</tr>
+
+<tr>
+<td><strong>cw</strong></td>
+<td>Delete word and insert text</td>
+</tr>
+
+<tr>
+<td><strong>dd</strong></td>
+<td>Delete a line</td>
+</tr>
+
+<tr>
+<td><strong>SPC r y</strong></td>
+<td>Show previous thing you&rsquo;ve yanked</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="buffer">Buffer</h2>
+
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>SPC b d</strong></td>
+<td>Delete buffer 👍</td>
+</tr>
+
+<tr>
+<td><strong>SPC b m</strong></td>
+<td>Kill other buffer</td>
+</tr>
+
+<tr>
+<td><strong>SPC b n</strong></td>
+<td>Next buffer</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="compile-comment">Compile/Comment</h2>
+
+<table>
+<thead>
+<tr>
+<th>Key Binding</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>SPC c l/L</strong></td>
+<td>Comment line (or invert)</td>
+</tr>
+
+<tr>
+<td><strong>SPC c p/P</strong></td>
+<td>Comment paragraph (or invert)</td>
+</tr>
+
+<tr>
+<td><strong>SPC c t/T</strong></td>
+<td>Comment to the line (or invert)</td>
+</tr>
+
+<tr>
+<td><strong>SPC c y/Y</strong></td>
+<td>Copy and comment 👍</td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+
+<footer>
+  <hr>
+  <small style="font-size:16px;float:right;margin:0 1rem;">
+    &copy; 2019 <a href="https://github.com/laurence21406">Laurence Chow.</a>
+    
+  </small>
+</footer>
+</div> 
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+
+
+<script>
+ (function(){
+  var seriesA = document.getElementsByTagName("a");
+  seriesA = Array.from(seriesA).filter(x =>x.getAttribute("data-series"));
+  if(seriesA.length){
+    var nameSeries = {}
+    seriesA.forEach(x =>{
+      var xdata = x.getAttribute("data-series")
+      if(nameSeries[xdata]){
+        nameSeries[xdata].push(x)
+      }else{
+        nameSeries[xdata] = [x]
+      }
+    })
+  }
+
+  function createE(){
+    var detailsArr = [] 
+    var postPosArr = [] 
+    for(let i in nameSeries){
+      var dcreateE = document.createElement("details")
+      var screateE = document.createElement("summary")
+      screateE.textContent = i;
+      var inner = screateE.outerHTML + "<br >" 
+
+      nameSeries[i].forEach(x =>{
+        inner += x.outerHTML
+        x.parentElement.style.display = "none"
+      })
+      postPosArr.push(nameSeries[i][0])
+      dcreateE.innerHTML = inner
+      detailsArr.push(dcreateE)
+    }
+    console.info(postPosArr)
+    console.log(detailsArr[0])
+    postPosArr.forEach(a =>{
+      a.parentElement.style.display = "block"
+      a.outerHTML = detailsArr.shift().outerHTML
+    })
+  }
+  createE()
+ })()
+</script>
+
+
+</body>
+
+</html>
