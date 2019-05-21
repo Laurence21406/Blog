@@ -9,24 +9,35 @@
     
     
     <title>Git</title>
-    
-
 
     
+
+        
+
+        
+
+        
+        
+
+        
+        
+            <link rel="stylesheet" href="https://laurence21406.github.io/css/main.css">
+        
+
+        
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" rel="stylesheet">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
     
-    
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-        <link rel="stylesheet" href="/css/main.css">
-    
 
     
     
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+
 </head>
 
 
@@ -54,16 +65,17 @@
                 }else{
                     document.body.classList.remove('mobile');  
                 }
-        }</script>
+    }</script>
+
+    
     
 
 
     
-
 
 <div class="inner" style="position:relative;">
   
-  <div class="side-btn"><a href="/" class="back">Home</a></div>
+  <div class="side-btn"><a href="https://laurence21406.github.io/" class="back">Home</a></div>
   
 <div class="blog-post">
   <h2>Git</h2>
@@ -71,12 +83,27 @@
 
   </div>
 
+<br>
+  
+
+
+<br>
+
+
+
+
 <footer>
+    <p style="float:right;margin:0 1rem;">
+        &copy; 2019 <a href="https://github.com/laurence21406">Laurence Chow.</a>
+        
+      </p>
   <hr>
-  <small style="font-size:16px;float:right;margin:0 1rem;">
-    &copy; 2019 <a href="https://github.com/laurence21406">Laurence Chow.</a>
-    
-  </small>
+  <hr>
+
+  
+  <br>
+
+
 </footer>
 </div> 
 
@@ -88,49 +115,16 @@
 
 
 
-<script>
- (function(){
-  var seriesA = document.getElementsByTagName("a");
-  seriesA = Array.from(seriesA).filter(x =>x.getAttribute("data-series"));
-  if(seriesA.length){
-    var nameSeries = {}
-    seriesA.forEach(x =>{
-      var xdata = x.getAttribute("data-series")
-      if(nameSeries[xdata]){
-        nameSeries[xdata].push(x)
-      }else{
-        nameSeries[xdata] = [x]
-      }
-    })
-  }
 
-  function createE(){
-    var detailsArr = [] 
-    var postPosArr = [] 
-    for(let i in nameSeries){
-      var dcreateE = document.createElement("details")
-      var screateE = document.createElement("summary")
-      screateE.textContent = i;
-      var inner = screateE.outerHTML + "<br >" 
 
-      nameSeries[i].forEach(x =>{
-        inner += x.outerHTML
-        x.parentElement.style.display = "none"
-      })
-      postPosArr.push(nameSeries[i][0])
-      dcreateE.innerHTML = inner
-      detailsArr.push(dcreateE)
-    }
-    console.info(postPosArr)
-    console.log(detailsArr[0])
-    postPosArr.forEach(a =>{
-      a.parentElement.style.display = "block"
-      a.outerHTML = detailsArr.shift().outerHTML
-    })
-  }
-  createE()
- })()
-</script>
+
+
+
+
+
+    
+
+
 
 
 </body>
