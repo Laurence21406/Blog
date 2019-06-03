@@ -3,7 +3,8 @@ title: "Spacemacs Cheatsheet"
 date: 2019-01-28T06:34:05+08:00
 draft: false
 emoji: true
-
+categories: ['emacs']
+tags: [ 'spacemacs' ]
 ---
 There is a spacemacs cheatsheet of myself, :thumbsup: means **frequently used** .
 ## Editor ##
