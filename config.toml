@@ -26,7 +26,7 @@ enableEmoji = true
 
     [[menu.main]]
     name = "Tags"
-    url = "/tags"
+    url = "/tags/"
     weight = 40
     
 
@@ -39,6 +39,13 @@ enableEmoji = true
       name = "Archives"
        url = "/"
        weight = 20
+
+       [[menu.main]]
+      name = "About"
+       url = "/about"
+       weight = 80
+
+
     # 我 想加更多目录
     # backgroundColor = "#fbf6ec"
     # 加点黄黄的背景色
